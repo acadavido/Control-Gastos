@@ -127,12 +127,12 @@ function App() {
               />
             </main>
             <div className='nuevo-gasto'>
-            <img
-              src={IconoNuevoGasto}
-              alt="icono nuevo gasto"
-              onClick={handleNuevoGasto}
-            />
-          </div>
+              <img
+                src={IconoNuevoGasto}
+                alt="icono nuevo gasto"
+                onClick={handleNuevoGasto}
+              />
+           </div>
         </>
 
       )}

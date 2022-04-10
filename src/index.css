@@ -42,6 +42,11 @@ h2 {
     padding: 4rem;
     border-radius: 1.2rem;
 }
+@media (max-width:600px){
+    .sombra{
+        padding: 2rem;
+    }
+}
 
 header {
     background-color: var(--azul);
@@ -80,6 +85,13 @@ header h1 {
 .formulario .campo {
     display: grid;
     margin-bottom: 2rem;
+}
+
+@media(max-width: 600px){
+    .campo{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
 }
 
 .formulario label {
@@ -359,6 +371,11 @@ main {
     transition-duration: 300ms;
     transition-timing-function: ease-in;
     opacity: 0;
+}
+@media(max-width: 600px){
+    .modal .formulario {
+        width: 30rem;
+    }
 }
 .modal label {
     color: var(--blanco);

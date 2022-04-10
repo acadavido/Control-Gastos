@@ -33,7 +33,7 @@ const Modal = ({
        setAnimarModal(false)
        setGastoEditar({})
        setTimeout(() => {
-        setModal(false)
+       setModal(false)
        }, 500)
     }
     
